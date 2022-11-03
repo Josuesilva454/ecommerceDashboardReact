@@ -11,3 +11,52 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.login-panel {
+  width: 500px;
+  padding: 60px;
+  background-color: blueviolet;
+  border-radius: 16px;
+  flex-direction: row;
+  text-align: center;
+  margin: 200px;
+  margin-left :35%; 
+  font-family:"Arial" ;
+  color:aliceblue;
+ 
+
+}
+.btn{
+  border: none;
+  border-radius: 30px;
+  padding: .5rem 1.5rem;
+  font-family:" Black Jack" ;
+  color:aliceblue;
+ font-size: large;
+
+}
+
+
+div .header{
+  background-color: blueviolet; 
+  font-family:"Arial" ;
+
+
+}
+.items{
+  background-color: blueviolet;
+}
+.content {
+  margin-left: 16%;
+  padding-left: 15px;
+  width: 60%;
+  position:absolute; 
+  top:70px;
+
+  }
+  .content-header {
+    margin-bottom: 16px ;
+  }
+
+
+ 
+
