@@ -4,9 +4,10 @@ import './index.css';
 import { ProtectedRoute } from './components/ProtectedRoute';
 import DashboardAdminPage from './pages/admin/DashboardAdminPage';
 import CategoryAdminPage from './pages/admin/CategoryAdminPage';
-import ProductAdminPage from './pages/admin/ProductAdminPage';
+import ProductAdminListPage from '../src/pages/admin/ProductAdminPageList';
 import HomePage from './pages/HomePage';
 import SigninPage from './pages/SigninPage';
+import ProductAdminCreatePage from './pages/admin/ProductAdminCreatePage';
 
 const App = () => {
   return (
@@ -27,10 +28,16 @@ const App = () => {
 
         <Route path="/admin/product" element={
           <ProtectedRoute>
-            <ProductAdminPage/>
+            <ProductAdminListPage/>
           </ProtectedRoute>
 
         } />
+
+       <Route path="/admin/product/create" element={
+          <ProtectedRoute>
+            <ProductAdminCreatePage/>
+          </ProtectedRoute>
+      } />
       </Routes>
     </div>
   )

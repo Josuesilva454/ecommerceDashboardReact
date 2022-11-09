@@ -8,7 +8,7 @@ const Sidebar = () => {
     const { signout } = useAuth();
     const items = [
         {
-            label: "Dashboard",
+            label: "Painel",
             icon: "pi pi-th-large",
             template: (item, options) => {
                 return (
@@ -20,7 +20,7 @@ const Sidebar = () => {
             }
         },
         {
-            label: "Order",
+            label: "Carrinho",
             icon: "pi pi-shopping-cart",
             template: (item, options) => {
                 return (
@@ -32,7 +32,7 @@ const Sidebar = () => {
             }
         },
         {
-            label: "Category",
+            label: "Categoria",
             icon: "pi pi-tags",
             template: (item, options) => {
                 return (
@@ -44,7 +44,7 @@ const Sidebar = () => {
             }
         },
         {
-            label: "Product",
+            label: "Produto",
             icon: "pi pi-box",
             template: (item, options) => {
                 return (
@@ -56,7 +56,7 @@ const Sidebar = () => {
             }
         },
         {
-            label: "User",
+            label: "Usuário",
             icon: "pi pi-fw pi-users",
             template: (item, options) => {
                 return (
@@ -68,7 +68,7 @@ const Sidebar = () => {
             }
         },
         {
-            label: "Sign Out",
+            label: "Sair",
             icon: "pi pi-sign-out",
             command: () => signout()
         }
